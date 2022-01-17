@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Simple Note" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>SimpleNotes</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1><span>S</span>imple<span>N</span>ote</h1>
+        <input type="checkbox" id="id" />
+        <nav class="nav">
+          <ul>
+            <li>Add Note</li>
+            <li>Settings</li>
+            <li>About</li>
+          </ul>
+        </nav>
+        <label for="id">
+          <div class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </label>
+      </div>
+    </header>
+    <div class="notes">
+      <div class="container">
+        <!--<div class="note">
+          <h2>Title</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam,
+            maiores suscipit deserunt necessitatibus asperiores dolorum, ab
+            sequi inventore quisquam laudantium repudiandae repellat sit minima,
+            recusandae itaque! Eveniet distinctio et exercitationem?
+          </p>
+          <span>10/02/2022</span>
+        </div> -->
+      </div>
+    </div>
+    <!-- start write place -->
+    <div class="write">
+      <div class="container">
+        <input id="x" class="input" type="text" placeholder="Title" />
+        <textarea class="input" placeholder="Write Text .."></textarea>
+        <div class="barbtn">
+          <button>save</button>
+          <button>Cancel</button>
+        </div>
+      </div>
+    </div>
+    <!-- end write place -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
